@@ -17,12 +17,10 @@
         "url": "https://github.com/moodlehq/moodlemobile2.git"
     },
     "license": "Apache-2.0",
-    "licenses": [
-        {
-            "type": "Apache-2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0"
-        }
-    ],
+    "licenses": [{
+        "type": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }],
     "scripts": {
         "start": "npm run dev",
         "dev": "ionic serve",
@@ -139,7 +137,7 @@
         "zone.js": "0.8.29"
     },
     "devDependencies": {
-        "@ionic/app-scripts": "^3.2.3",
+        "@ionic/app-scripts": "3.2.3",
         "@ionic/cli": "^6.11.7",
         "@types/cordova": "^0.0.34",
         "@types/cordova-plugin-file-transfer": "^0.0.3",
@@ -251,15 +249,13 @@
         "directories": {
             "output": "desktop/dist"
         },
-        "protocols": [
-            {
-                "name": "Moodle Mobile URL",
-                "schemes": [
-                    "moodlemobile"
-                ],
-                "role": "Viewer"
-            }
-        ],
+        "protocols": [{
+            "name": "Moodle Mobile URL",
+            "schemes": [
+                "moodlemobile"
+            ],
+            "role": "Viewer"
+        }],
         "compression": "maximum",
         "electronVersion": "8.0.2",
         "mac": {
